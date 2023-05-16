@@ -145,5 +145,7 @@ CORS_ALLOW_HEADERS = [
     'Content-Type',
     # Add any other allowed headers here
 ]
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
     
